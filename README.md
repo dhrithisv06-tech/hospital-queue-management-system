@@ -1,29 +1,29 @@
 # hospital-queue-management-system
 Java Project using multithreading, JDBC and XAMPP 
 
-##Problem statement
+## Problem statement
 -Hospitals face long waiting queues
 -Emergency patients may not get priority
 -Manual management is inefficient
 
-##Objectives
+## Objectives
 -Manage patient queue efficiently
 -Handle emergency cases first
 -Simulate real-time hospital environment
 -Store patient data in database
 
-##Features
+## Features
 -Add Patients
 -View Patients
 -Book appointments
 -View appointments
 
-##Technologies used
+## Technologies used
 -Java
 -JDBC
 -XAMPP(for MYSQL database)
 
-##How system works
+## How system works
 -Patient is added
 -Stored in priority queue
 -Doctor thread picks patient
@@ -31,7 +31,7 @@ Java Project using multithreading, JDBC and XAMPP
 -Data stored in database
 -Log saved in file
 
-##How to Run
+## How to Run
 -Setup MySQL database using XAMPP
 -Update DB credentials in DatabaseHandler.java
 -Compile and run MainNew.java
